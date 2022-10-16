@@ -1,0 +1,175 @@
+:root{
+    --primery-white-color:#ffffff;
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --akcent-color:#2196F3;
+    --secondary-color-bgc:#F5F4FA;
+}
+body{
+    background-color:var(--primery-white-color);
+    color:var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+
+a {text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+
+/* ----------------logo---------------- */
+.logo{
+    color:var(--akcent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.logo-black{
+    color:  var(--title-text-color);
+}
+.logo-white{
+    color: var(--primery-white-color);
+}
+
+
+/* --------------menu-nav-------------- */
+
+.nav-item{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.nav-item:hover,.nav-item:focus{
+    color: var(--akcent-color);
+}
+.nav-item.current{
+    color: var(--akcent-color);
+}
+/* ----------------contact------------- */
+
+.contact-link{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.contact-link:hover, .contact-link:focus{
+    color: var(--akcent-color);
+}
+
+/* ----------------------hero----------- */
+.hero .title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero .btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    background-color: var(--akcent-color);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* ---------------что мы делаем--------------- */
+.work-title{
+    color: var(--title-text-color);
+}
+/* features */
+.features .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+}
+.features .text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* -------------------team------------------- */
+.team-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;    
+}
+.team-member{
+    color: var(--title-text-color); 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;    
+}
+.team-text{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;    
+}
+
+/* ----------------footer---------------- */
+footer{
+    background-color: #2F303A;
+}
+.address-text{
+    color: var(--primery-white-color);
+    font-size: 14px;
+    line-height: 1.71;    
+    letter-spacing: 0.03em;
+}
+.address-link{ 
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address-link:hover,.address-link:focus{
+    color: var(--akcent-color);
+}
+
+/* -----------------portfolio------------ */
+
+
+/* ---------filtr button--------- */
+.filtr .list .item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;   
+    color: var(--title-text-color);
+    background-color:var(--secondary-color-bgc);
+    cursor: pointer;
+}
+.filtr .list .item:hover,.filtr .list .item:focus{
+    color: var(--primery-white-color);
+    background-color: var(--akcent-color);
+}
+/* filtr project */
+
+.project .title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+.project .text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;    
+    color: var(--primary-text-color);
+}
