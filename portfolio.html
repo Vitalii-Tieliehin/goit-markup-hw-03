@@ -12,24 +12,25 @@
 <body>
     <!-- шапка сайта -->
     <header>
-        <!-- меню навигации -->
-        <nav class="menu-nav">
+        <section class="main-nav container">
             <a href="./index.html" class="logo">Web<span class="logo-black">Studio</span></a>
-            <ul class="nav-list list">
-                <li><a href="./index.html" class="nav-item">Студия</a></li>
-                <li><a href="./portfolio.html" class="nav-item current">Портфолио</a></li>
-                <li><a href="" class="nav-item">Контакты</a></li>
+            <nav class="menu-nav">
+                <ul class="nav-list list">
+                    <li class="nav-item"><a href="./index.html" class="nav-link current">Студия</a></li>
+                    <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+            <!-- контакты -->
+            <ul class="contact list">
+                <li class="contact-list"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+                <li class="contact-list"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <!-- контакты -->
-        <ul class="contact list">
-            <li class="contact-list"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-            <li class="contact-list"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
-        </ul>
+        </section>
     </header>
     <main>
         <!--  портфолио -->
-        <section>
+        <section class="container">
             <h1>Фильтр проектов</h1>
             <ul class="filtr list">
                 <li class="list"><button type="button" class="item">Все</button></li>
@@ -40,12 +41,12 @@
             </ul>
         </section>
         <!-- проекты -->
-        <section>
+        <section class="container">
             <h2>Проекты</h2>
             <ul class="project list">
                 <li class="card">
                     <a href="">
-                        <img src="./images/portfolio/technokrjak.jpg" alt="экран ноутбука">
+                        <img src="./images/portfolio/technokrjak.jpg" alt="экран ноутбука" width="370">
                         <h3 class="title">Технокряк</h3>
                         <p class="text">Веб-сайт</p>
                     </a>
@@ -110,7 +111,7 @@
         </section>
     </main>
     <footer>        
-        <div class="address">
+        <div class="address container">
             <a href="index.html" class="logo">Web <span class="logo-white">Studio</span></a>
             <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
             <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
